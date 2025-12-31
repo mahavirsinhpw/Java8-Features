@@ -1,39 +1,34 @@
 package com.defaultMethod;
 
-interface Sayable{
-	
+interface Sayable {
+
 //	default void say();
-	
+
 //	default abstract void say() {
 //		
 //	}
-	
-	
+
 //	default static void say() {
 //		
 //	}
-	
-	
-	
+
 //	default boolean equals(Object obj) {
 //		
 //	}
-	
-	
+
 	default void say() {
 		System.out.println("say in sayable");
 	}
-	
+
 	default void say2() {
 		System.out.println("say2 in sayable");
 		say();
 	}
-	
-	
+
 }
 
-class Speakable implements Sayable{
-	
+class Speakable implements Sayable {
+
 }
 
 public class DefaultMethodDemo3 {
