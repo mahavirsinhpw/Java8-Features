@@ -89,6 +89,9 @@ public class LambdaExpressionDemo2 {
 		
 		
 		
+		
+		
+		
 
 	}
 }
