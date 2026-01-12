@@ -9,6 +9,7 @@ interface Test {
 public class MethodReferenceDemo5 {
 	public static void main(String[] args) {
 
+		System.out.println("Method Ref.******\n");
 		int[] arr1 = { 90, 20, 50, 10, 60, 80 };
 
 		Test t = Arrays::sort;
@@ -17,7 +18,7 @@ public class MethodReferenceDemo5 {
 			System.out.println(a);
 		}
 
-		System.out.println("******\n");
+		System.out.println("Lambda exp.******\n");
 
 		int[] arr2 = { 80, 60, 30, 70, 10, 50 };
 		Test test = (arr) -> {
