@@ -12,5 +12,7 @@ public class StreamAPIDemo11 {
 		System.out.println("---------");
 
 		myList.stream().skip(4).limit(10).filter(num -> num % 2 != 0).map(num -> num * num).forEach(System.out::println);
+		
+		
 	}
 }
