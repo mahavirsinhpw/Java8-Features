@@ -20,8 +20,28 @@ public class Jtc14 {
 			if(flag) {
 				System.out.println("students with no bal.(all paid)");
 			} else {
-				studentList.forEach(System.out::println);
+				System.out.println("students with Bal to pay");
 			}
+			studentList.forEach(System.out::println);
 		}
+	
+	
+		
+//		Map<Boolean, List<Student>> feeBal = students.stream()
+//		.collect(Collectors.partitioningBy(st->st.getFeebal() == 0));
+//		
+//		for(Boolean flag : feeBal.keySet()) {
+//			
+//			List<Student> allStudents = feeBal.get(flag);
+//			
+//			if(flag) {
+//				System.out.println("no students are there with pending fee");
+//			} else {
+//				System.out.println("students with Bal to pay");
+//			}
+//			allStudents.forEach(System.out::println);
+//			
+//		}
+		
 	}
 }
